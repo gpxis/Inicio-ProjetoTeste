@@ -29,6 +29,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 80px;
+
 }
 
 .lista-personagens {
@@ -146,3 +147,16 @@ body{
 
 }
 
+.produto-container{
+     display: flex;
+     width: 100%;
+     justify-content:space-around
+
+}
+
+@media screen and (max-width: 780px){
+   .produto-container{
+        width: 100%;
+        flex-direction: column;
+    }
+}    
