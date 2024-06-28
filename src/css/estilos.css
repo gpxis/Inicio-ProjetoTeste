@@ -146,17 +146,3 @@ body{
     background: url(../imagens/fundo-meruem.jpg) no-repeat;
 
 }
-
-.produto-container{
-     display: flex;
-     width: 100%;
-     justify-content:space-around
-
-}
-
-@media screen and (max-width: 780px){
-   .produto-container{
-        width: 100%;
-        flex-direction: column;
-    }
-}    
